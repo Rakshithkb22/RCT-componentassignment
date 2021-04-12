@@ -1,0 +1,47 @@
+Assignment 1
+1. Create a component called as Addition
+2. Pass a and b as props
+3. a value is 10 and b value is 20
+4. return a h1 element which diplays the addition of the 2 values
+
+Assigment 2 
+1. Create a component called as Total
+2. Pass prices as a prop value to the component
+3. Return a h1 element, which shows the total of prices
+4. You are given an array of values
+   	const prices = [150,250,200,400]
+
+Assignment 3 - Total Component with Price List
+1. Create a component called as Total
+2. Return react element that will display the total as well as all the prices as a list item
+3. You are provided with an array of prices
+   	const prices = [150,250,200,400]
+	
+Assignment 4 - Current Time
+1. Create a Time Component
+2. The purpose of the time component is to return the current system time in the format of (HH:MM am/pm)
+3. Return a h1 element from the component
+
+Assignment 5 - User Table
+1. Create a component called as UserTable
+2. You are provided with a set of user information
+3. Pass the users information as props to the component
+4. Using the data return a table element from the component
+	const users = [
+        { id: 1, name: 'user1', email: 'u1@gmail.com'},
+        { id: 2, name: 'user2', email: 'u2@gmail.com' },
+        { id: 3, name: 'user3', email: 'u3@gmail.com' }
+    ]
+o/p : return table id name email
+
+Assignment 6 - Article Likes
+1. Create a component called as ArticlesList
+2. You are provided with an array of articles information along with its popularity
+3. Return an unordered list element from the component, each of the list inside should 
+   display the article title, likes & dislikes
+	const articles = [
+        { id: 1, title: 'Article 1', meta: { likes: 10, dislikes: 0} },
+        { id: 2, title: 'Article 2', meta: { likes: 20, dislikes: 10 }},
+        { id: 3, title: 'Article 3', meta: { likes: 5, dislikes: 0 } }
+    ]
+O/p : unordered list of likes and dislikes
